@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;800;900&display=swap);
+.btn {
+  border: 1px dotted;
+}
+.shoes {
+  bottom: 80px;
+}
+.all {
+  gap: 30px;
+}
+.formde {
+  background: linear-gradient(
+    to top,
+    #55b13645,
+    #87c7722a,
+    #87d76d14,
+    #5bbe3a00,
+    #5bbe3a00,
+    #5bbe3a00,
+    #5bbe3a00,
+    #5bbe3a00,
+    #5bbe3a00
+  );
+  border-radius: 50% 50%;
+  width: 300px !important;
+  height: 260px !important;
+  align-items: center !important;
+}
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1146px !important;
+  }
+}
+video {
+  width: 590px !important;
+  height: 500px !important;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.class {
+  width: 600px !important;
+  height: 700px;
+  object-fit: cover;
+}
+.boy {
+  width: 3600px !important;
+}
+.gaps {
+  gap: 20px !important;
+}
